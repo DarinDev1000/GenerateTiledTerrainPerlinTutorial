@@ -216,6 +216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 769457509}
+  - component: {fileID: 769457510}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -238,3 +239,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &769457510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769457508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b2af2ec20708649849dd54b0a11ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabDirt: {fileID: 6010352232794909141, guid: ca8d73eebc4baab40884c1b2b819e1b8, type: 3}
+  prefabGrass: {fileID: 4235378639921667462, guid: f63cf407ee75f0642b71d887c8af6b41, type: 3}
+  prefabGrassPlant: {fileID: 5173739540295974281, guid: 0a9b567831bb9ac4a94200598923ca97, type: 3}
+  prefabBush: {fileID: 7432236952988192465, guid: 7c27a2d080868be4488df562bb8232a0, type: 3}
