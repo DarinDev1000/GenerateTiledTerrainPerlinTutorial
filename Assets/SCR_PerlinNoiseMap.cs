@@ -12,11 +12,12 @@ public class SCR_PerlinNoiseMap : MonoBehaviour
     public GameObject prefabGrassPlant;
     public GameObject prefabBush;
 
-    int mapWidth = 300;
-    int mapHeight = 300;
-    float magnification = 7.0f; // between 4 - 20 recommended
-    int xOffset = 0;
-    int yOffset = 0;
+    public int mapWidth = 160;
+    public int mapHeight = 90;
+    public float magnification = 14.0f; // between 4 - 20 recommended
+    public int xOffset = 0;
+    public int yOffset = 0;
+    public List<int> tileOrder = new() { 0, 1, 2, 3 };
 
     List<List<int>> noiseGrid = new();
     List<List<GameObject>> tileGrid = new();
@@ -34,10 +35,10 @@ public class SCR_PerlinNoiseMap : MonoBehaviour
     {
         tileset = new()
         {
-            { 0, prefabDirt },
-            { 1, prefabGrass },
-            { 2, prefabGrassPlant },
-            { 3, prefabBush }
+            { tileOrder[0], prefabDirt },
+            { tileOrder[1], prefabGrass },
+            { tileOrder[2], prefabGrassPlant },
+            { tileOrder[3], prefabBush }
         };
     }
 

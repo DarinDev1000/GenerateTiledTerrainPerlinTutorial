@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a119581ffbad77443a04201ad391b4e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 2
   mainCamera: {fileID: 519420031}
 --- !u!1 &769457508
 GameObject:
@@ -270,3 +270,9 @@ MonoBehaviour:
   prefabGrass: {fileID: 4235378639921667462, guid: f63cf407ee75f0642b71d887c8af6b41, type: 3}
   prefabGrassPlant: {fileID: 5173739540295974281, guid: 0a9b567831bb9ac4a94200598923ca97, type: 3}
   prefabBush: {fileID: 7432236952988192465, guid: 7c27a2d080868be4488df562bb8232a0, type: 3}
+  mapWidth: 300
+  mapHeight: 300
+  magnification: 10
+  xOffset: 200
+  yOffset: 0
+  tileOrder: 01000000020000000000000003000000
