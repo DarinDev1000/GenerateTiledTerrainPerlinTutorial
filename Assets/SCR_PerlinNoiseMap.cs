@@ -12,8 +12,8 @@ public class SCR_PerlinNoiseMap : MonoBehaviour
     public GameObject prefabGrassPlant;
     public GameObject prefabBush;
 
-    int mapWidth = 16;
-    int mapHeight = 9;
+    int mapWidth = 300;
+    int mapHeight = 300;
     float magnification = 7.0f; // between 4 - 20 recommended
     int xOffset = 0;
     int yOffset = 0;
