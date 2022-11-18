@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6096614132737514488}
   - component: {fileID: 259535655075441666}
   m_Layer: 0
-  m_Name: grass_plant
+  m_Name: PFB_grass_plant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

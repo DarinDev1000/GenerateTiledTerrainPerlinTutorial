@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3179865922838665366}
   - component: {fileID: 1667743149165193598}
   m_Layer: 0
-  m_Name: dirt
+  m_Name: PFB_dirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
